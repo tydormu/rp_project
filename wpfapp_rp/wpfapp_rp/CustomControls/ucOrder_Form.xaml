@@ -1,0 +1,53 @@
+﻿<UserControl x:Class="wpfapp_rp.CustomControls.ucOrder_Form"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:wpfapp_rp.CustomControls"
+             mc:Ignorable="d" Height="595" Width="842">
+    <Grid>
+        <ScrollViewer VerticalScrollBarVisibility="Auto">
+            <StackPanel Name="Order_Form">
+                <StackPanel.Children>
+                    <Label FontSize="20" Content="Test1"/>
+                    <Label FontSize="20" Content="Test2"/>
+                    <Label FontSize="20" Content="Test3"/>
+                    <Label FontSize="20" Content="Test4"/>
+                    <Label FontSize="20" Content="Test5"/>
+                    <Label FontSize="20" Content="Test1"/>
+                    <Label FontSize="20" Content="Test2"/>
+                    <Label FontSize="20" Content="Test3"/>
+                    <Label FontSize="20" Content="Test4"/>
+                    <Label FontSize="20" Content="Test5"/>
+                    <Label FontSize="20" Content="Test1"/>
+                    <Label FontSize="20" Content="Test2"/>
+                    <Label FontSize="20" Content="Test3"/>
+                    <Label FontSize="20" Content="Test4"/>
+                    <Label FontSize="20" Content="Test5"/>
+                    <Label FontSize="20" Content="Test1"/>
+                    <Label FontSize="20" Content="Test2"/>
+                    <Label FontSize="20" Content="Test3"/>
+                    <Label FontSize="20" Content="Test4"/>
+                    <Label FontSize="20" Content="Test5"/>
+                    <Label FontSize="20" Content="Test1"/>
+                    <Label FontSize="20" Content="Test2"/>
+                    <Label FontSize="20" Content="Test3"/>
+                    <Label FontSize="20" Content="Test4"/>
+                    <Label FontSize="20" Content="Test5"/>
+                    <Label FontSize="20" Content="Test1"/>
+                    <Label FontSize="20" Content="Test2"/>
+                    <Label FontSize="20" Content="Test3"/>
+                    <Label FontSize="20" Content="Test4"/>
+                    <Label FontSize="20" Content="Test5"/>
+                    <Label FontSize="20" Content="Test1"/>
+                    <Label FontSize="20" Content="Test2"/>
+                    <Label FontSize="20" Content="Test3"/>
+                    <Label FontSize="20" Content="Test4"/>
+                    <Label FontSize="20" Content="Test5"/>
+                    <Button Content="SUBMIT AND PRINT" FontSize="32" Click="Button_Click"/>
+                </StackPanel.Children>
+            </StackPanel>
+        </ScrollViewer>
+
+    </Grid>
+</UserControl>

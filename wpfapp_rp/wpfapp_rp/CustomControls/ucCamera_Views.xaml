@@ -1,0 +1,30 @@
+﻿<UserControl x:Class="wpfapp_rp.CustomControls.ucCamera_Views"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:wpfapp_rp.CustomControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="334" d:DesignWidth="900">
+    <Grid>
+        <TabControl x:Name="tabControl" HorizontalAlignment="Stretch" Margin="10" VerticalAlignment="Stretch">
+            <TabItem Header="Single Camera">
+                <Grid Background="#FFE5E5E5">
+                    <Label Content="Single Camera goes here..." />
+                </Grid>
+            </TabItem>
+            <TabItem Header="Double Camera">
+                <Grid Background="#FFE5E5E5">
+                    <Label Content="Double Camera goes here..." />
+                </Grid>
+            </TabItem>
+            <TabItem Header="External Camera">
+                <Grid Background="#FFE5E5E5">
+                    <Label Content="External Camera goes here..." />
+                </Grid>
+            </TabItem>
+        </TabControl>
+
+
+    </Grid>
+</UserControl>
